@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "derStandard.at Fair-Use Entferner",
+	"description": "derStandard.at Fair-Use Entferner",
+	"version": "1.0",
+	"permissions": [
+		"cookies",
+		"webNavigation",
+		"*://*.derstandard.at/"
+	],
+	"icons": { 
+		"16": "img/icon16.png",
+		"48": "img/icon48.png",
+		"128": "img/icon128.png" 
+	},
+	"background": {
+      "scripts": ["js/remove.js"],
+	  "persistent": true
+    }
+}
